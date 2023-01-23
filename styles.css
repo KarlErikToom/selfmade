@@ -188,12 +188,16 @@ li{
 }
 
 .features__container{
-    
+    padding-top: 96px;
 }
 
 .services{
     display: flex;
     flex-wrap: wrap;
+    padding: 32px 8px;
+    margin: 0 16px;
+    align-items: center;
+    justify-content: center;
 }
 .service{
     display: flex;
@@ -203,3 +207,13 @@ li{
     display: flex;
     flex-direction: column;
 }
+
+.features__para{
+    margin-top: 18px;
+}
+
+.service__span{
+    font-size: 24px;
+    margin-top: 16px;
+}
+
