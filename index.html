@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>treact</title>
     <link rel="stylesheet" href="/styles.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
-    </style>
+    <script
+      src="https://kit.fontawesome.com/7a2e4501c4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div id="page">
@@ -38,18 +39,25 @@
 
         <div class="row row__landing">
           <div class="landing__left">
-            <h2>
+            <h1>
               Beatiful React Templates <span class="purple">for you.</span>
-            </h2>
-            <p>
+            </h1>
+            <p class="landing__para">
               Our templates are easy to setup, understand and customize. Fully
               modular components with a variety of pages and components.
             </p>
-            <input type="text" placeholder="Your Email Address" /><button
-              class="btn input__btn"
-            >
-              Get Started
-            </button>
+            <div class="input__wrapper">
+              <form action="/submit-email-address">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Your Email Address"
+                />
+                <div>
+                  <button class="btn input__btn">Get Started</button>
+                </div>
+              </form>
+            </div>
             <div class="customers">
               <p>our trusted customers</p>
               <img
@@ -61,6 +69,71 @@
           </div>
           <div class="landing__right">
             <img class="landing__img" src="/assets/picture.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+        <div class="features__container">
+          <div class="row">
+            <span class="features__span">FEATURES</span>
+            <h2>We have Amazing <span class="purple">Service.</span></h2>
+            <p class="features__para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+              quibusdam.
+            </p>
+            <div class="services">
+              <div class="service">
+                <div class="service__description">
+                  <i class="fa-solid fa-shield-halved"></i>
+                  <span class="features__span">Secure</span>
+                  <p class="features__para">
+                    We strictly only deal with vendors that provide top notch
+                    security
+                  </p>
+                </div>
+              </div>
+              <div class="service">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span class="features__span">Secure</span>
+                <p class="features__para">
+                  We strictly only deal with vendors that provide top notch
+                  security
+                </p>
+              </div>
+              <div class="service">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span class="features__span">Secure</span>
+                <p class="features__para">
+                  We strictly only deal with vendors that provide top notch
+                  security
+                </p>
+              </div>
+              <div class="service">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span class="features__span">Secure</span>
+                <p class="features__para">
+                  We strictly only deal with vendors that provide top notch
+                  security
+                </p>
+              </div>
+              <div class="service">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span class="features__span">Secure</span>
+                <p class="features__para">
+                  We strictly only deal with vendors that provide top notch
+                  security
+                </p>
+              </div>
+              <div class="service">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span class="features__span">Secure</span>
+                <p class="features__para">
+                  We strictly only deal with vendors that provide top notch
+                  security
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
