@@ -461,4 +461,162 @@ li{
 }
 
 
+/*PRICING*/
+
+.pricing__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pricing__span--wrapper{
+    margin-bottom: 16px;
+}
+
+.pricing__span{
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.pricing__para{
+    margin-top: 16px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.plans{
+    display: flex;
+    position: relative;
+    
+}
+
+.plan{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    margin: 64px 32px 0 0;
+    padding: 8px 32px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+    
+}
+
+.plan__highlight--left{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 56px;
+    height: 0.5rem;
+    width: 30.7%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+
+.plan__middle{
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-radius: 15px;
+    color: white;
+    
+}
+
+.plan__highlight--right{
+    position: absolute;
+    left: 800px;
+    right: 0px;
+    top: 56px;
+    height: 0.5rem;
+    width: 30.7%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%)
+}
+
+.plan__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.plan__title{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.plan__price{
+    font-size: 48px;
+    margin: 4px 0;
+}
+.plan__monthly{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(160 174 192);
+}
+
+.plan__lists{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    margin: 0 -32px;
+    position: relative;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.plan__list--header{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.plan__list{
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(160 174 192);
+    text-align: center;
+}
+
+
+.plan__btn{
+    text-align: center;
+    padding: 32px;
+}
+.plans__btn{
+    font-size: 14px;
+    padding: 16px 32px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+
+/*PRICING MIDDLE*/
+
+
+.plan__monthly--middle{
+    color: white;
+}
+
+.plan__list--middle{
+    color: white;
+}
+
+.plans__btn--middle{
+    background: white;
+    color: purple;
+}
+
+
+/*PRICING RIGHT*/
+
+.plans__btn--right{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
 
