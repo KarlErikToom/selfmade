@@ -635,3 +635,85 @@ width: 370px;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
+
+
+/*TESTIMONIALS*/
+
+.testimonials{
+    display: flex;
+}
+
+.testimonials__left{
+    width: 50%;
+}
+.testimonials__left--img{
+    width: 100%;
+}
+
+.testimonials__right{
+    width: 50%;
+    padding-left: 64px;
+}
+
+
+.testimonials__right--span{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.testimonials__right-text{
+    margin-top: 16px;
+}
+
+.testimonials__right--para{
+    margin-top: 24px;
+    font-size: 18px;
+}
+
+.testimonials__right--user{
+    margin-top: 28px;
+}
+
+.stars{
+    color: rgb(246 173 85)
+}
+
+.testimonials__right--h4{
+    padding-top: 16px;
+    font-size: 20px;
+}
+
+.testimonials__right--para2{
+margin: 16px 0 40px 0;
+font-size: 16px;
+}
+
+
+.testimonials__user{
+    display: flex;
+    align-items: center;
+
+}
+
+.testimonials__user--img{
+    border-radius: 9999px;
+    height: 5rem;
+    width: 5rem;
+
+}
+
+.testimonials__user--info{
+    margin-left: 14px;
+}
+
+
+.testimonials__user--name{
+    font-size: 20px;
+}
+
+.testimonials__user--job{
+    font-size: 16px;
+    font-weight: 500;
+}
