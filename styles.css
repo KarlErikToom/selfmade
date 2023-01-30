@@ -6,6 +6,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+hr{
+    color: gray;
+    
+}
+
 h1{
     font-size: 48px;
     font-weight: 700;
@@ -499,11 +504,19 @@ li{
     display: flex;
     flex-direction: column;
     margin: 64px 32px 0 0;
-    padding: 8px 32px;
+    padding: 16px 0px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.048);
+    border-style: solid;
     
     
+    
+}
+
+hr{
+width: 370px;    
+
 }
 
 .plan__highlight--left{
@@ -512,7 +525,7 @@ li{
     right: 0px;
     top: 56px;
     height: 0.5rem;
-    width: 30.7%;
+    width: 31.3%;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
@@ -524,15 +537,16 @@ li{
     border-radius: 15px;
     color: white;
     
+    
 }
 
 .plan__highlight--right{
     position: absolute;
-    left: 800px;
+    left: 816px;
     right: 0px;
     top: 56px;
     height: 0.5rem;
-    width: 30.7%;
+    width: 31.3%;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%)
@@ -583,6 +597,7 @@ li{
     font-size: 16px;
     color: rgb(160 174 192);
     text-align: center;
+    
 }
 
 
