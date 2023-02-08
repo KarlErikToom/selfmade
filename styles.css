@@ -334,6 +334,7 @@ li{
     width: 50%;
     display: flex;
     flex-direction: column;
+    margin-left: 48px;
     
 }
 
@@ -717,3 +718,51 @@ font-size: 16px;
     font-size: 16px;
     font-weight: 500;
 }
+
+
+
+/*END*/
+
+.end__container{
+    background-color: rgb(100 21 255);
+    border-radius: 12px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.end__header{
+    font-size: 30px;
+    color: white;
+    padding-left: 48px;
+    padding-right: 48px;
+    max-width: 100%;
+    width: 750px;
+}
+
+
+.end__btn{
+    padding: 24px 48px;
+    border-width: 2px;
+    background-color: rgb(245 101 101);
+    font-size: 16px;
+    
+}
+
+.end__btn--right{
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.336);
+    border-style: ridge;
+    margin-left: 14px;
+}
+
+.end__buttons{
+    margin-left: 16px;
+    padding-right: 20px;
+}
+
+
+
