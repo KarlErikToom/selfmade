@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 
 hr{
@@ -539,6 +540,7 @@ li{
     display: flex;
     position: relative;
     
+    
 }
 
 .plan{
@@ -584,11 +586,11 @@ width: 405px;
 
 .plan__highlight--right{
     position: absolute;
-    left: 866px;
+    left: 889px;
     right: 0px;
     top: 56px;
     height: 0.5rem;
-    width: 30.8%;
+    width: 31.4%;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%)
@@ -903,4 +905,81 @@ footer{
     color: white;
     margin-left: 12px;
     
+}
+
+
+/*SMALL PHONE TABLETS LARGE SMARTPOHONE*/
+
+@media (max-width: 768px){
+    .row{
+        margin: 0 18px;
+        
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .services{
+        flex-wrap: wrap;
+    }
+
+    .plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+    }
+
+    .row__landing{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .landing__right{
+        max-width: 40%;
+        width: 100%;
+        text-align: start;
+    }
+
+    .landing__img{
+        width: 170%;
+    }
+
+    .landing__left{
+        display: flex;
+        align-items: center;
+    }
+
+    .quality__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .values__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
