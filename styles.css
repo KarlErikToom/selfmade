@@ -56,6 +56,12 @@ button{
     border-style: none;
 }
 
+
+
+.btn:hover{
+    cursor: pointer;
+}
+
 input{
     width: 100%;
     max-width: 600px;
@@ -111,10 +117,18 @@ li{
 
 .nav__link{
     margin: 0 24px;
-    text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     padding: 8px;
+    transition: all 300ms ease
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+    color:rgb(100 21 255) ;
+    
+    
+    
 }
 
 .nav__link--primary{
@@ -124,6 +138,12 @@ li{
     color: white;
     padding: 8px 12px;
     font-weight: normal;
+    transition: all 300ms ease
+}
+
+.nav__link--primary:hover{
+    background-color: rgb(79, 10, 218);
+    
 }
 
 .input__btn{
@@ -192,6 +212,11 @@ li{
     max-width: 130px;
     max-height: 50px;
     right: 8px;
+    transition: all 300ms ease;
+}
+.input__btn:hover{
+    cursor: pointer;
+    background-color: rgb(79, 10, 218);
 }
 
 
@@ -320,6 +345,11 @@ li{
     width: calc(100% / 4);
     max-height: 100%;
     height: 50px;
+    transition: all 300ms ease;
+}
+
+.quality__btn:hover{
+    background-color: rgb(79, 10, 218);
 }
 
 
@@ -429,6 +459,11 @@ li{
     width: calc(100% / 4);
     max-height: 100%;
     height: 50px;
+    transition: all 300ms ease;
+}
+
+.btn__values:hover{
+    background-color: rgb(79, 10, 218);
 }
 
 .icon__container--left{
@@ -616,7 +651,13 @@ width: 405px;
     font-size: 14px;
     padding: 16px 32px;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    transition: all 300ms ease;
 }
+
+.plans__btn:hover{
+    scale: 1.2;
+}
+
 
 
 /*PRICING MIDDLE*/
@@ -633,6 +674,12 @@ width: 405px;
 .plans__btn--middle{
     background: white;
     color: rgb(100 21 255);
+    transition: all 300ms ease;
+}
+
+.plans__btn--middle:hover{
+    scale: 1.2;
+    
 }
 
 
@@ -755,7 +802,11 @@ font-size: 16px;
     border-width: 2px;
     background-color: rgb(245 101 101);
     font-size: 16px;
-    
+    transition: all 300ms ease;
+}
+
+.end__btn:hover{
+    background-color: rgb(240, 68, 68);
 }
 
 .end__btn--right{
@@ -763,6 +814,12 @@ font-size: 16px;
     border-color: rgba(255, 255, 255, 0.336);
     border-style: ridge;
     margin-left: 14px;
+    transition: all 300ms ease;
+}
+
+.end__btn--right:hover{
+    background-color: white;
+    color:  rgb(100 21 255);
 }
 
 .end__buttons{
