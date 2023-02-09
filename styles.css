@@ -371,6 +371,7 @@ li{
     font-weight: 600;
     opacity: 0.5;
     padding-right: 16px;
+    padding: ;
 }
 
 .steps__span{
@@ -766,3 +767,78 @@ font-size: 16px;
 
 
 
+/*FOOTER*/
+
+
+footer{
+    background-color: rgb(100 21 255);
+    
+}
+
+.links{
+    display: flex;
+    flex-wrap:wrap;
+    
+    
+}
+
+.footer__link{
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 4px;
+    
+}
+
+.footer__link--wrapper{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% /5);
+    align-items: center;
+    margin-top: 48px;
+    
+}
+
+.footer__link--help{
+    margin-top: 12px;
+    display: flex;
+
+}
+
+.footer__span{
+    color: white;
+    font-size: 24px;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.footer__logo{
+    color: white;
+}
+.footer__logo--img{
+    filter: invert(0.2);
+}
+
+
+.footer__line{
+    width: 60%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 350px;
+    display: flex;
+}
+
+.footer__copyright{
+    color: white;
+    font-size: 18px;
+}
+
+.fa-brands{
+    color: white;
+    margin-left: 12px;
+    
+}
