@@ -910,6 +910,13 @@ footer{
 
 /*SMALL PHONE TABLETS LARGE SMARTPOHONE*/
 
+@media (max-width: 1023px){
+    .nav__links{
+        display: none;
+    }
+}
+
+
 @media (max-width: 768px){
     .row{
         margin: 0 18px;
@@ -937,7 +944,7 @@ footer{
 
     .row__landing{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
 
@@ -956,9 +963,17 @@ footer{
         align-items: center;
     }
 
+    .service{
+    width: 50%;
+    }
+    .service__description{
+        display: flex;
+        text-align: start;
+    }
+
     .quality__wrapper{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
@@ -970,7 +985,7 @@ footer{
 
     .values__wrapper{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
