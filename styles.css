@@ -910,6 +910,75 @@ footer{
 
 /*SMALL PHONE TABLETS LARGE SMARTPOHONE*/
 
+
+
+@media (max-width: 1300px){
+    .row{
+        margin: 0 48px;
+    }
+
+    .nav__container{
+        margin-right: 68px;
+    }
+
+
+    .landing__right{
+        width: 90%;
+    }
+
+    .quality__right{
+        width: 40%;
+    }
+
+    .steps__right{
+        width: 70%;
+    }
+
+    .values__right{
+        width: 40%;
+    }
+
+    .testimonials__left{
+        width: 44%;
+    }
+
+    .plans{
+        margin-right: 60px;
+    }
+
+    .plan__highlight--left{
+        width: 30.4%;
+    }
+    .plan__highlight--right{
+        width: 30.4%;
+        left: 810px;
+    }
+    hr{
+        width: 100%;
+    }
+
+    .end__container{
+        margin-right: 105px;
+        
+    }
+
+    .end__buttons{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+
+    .end__btn{
+        width: fit-content;
+        margin-left: 14px;
+    }
+
+    .end__btn--right{
+        margin-top: 16px;
+    }
+}
+
 @media (max-width: 1023px){
     .nav__links{
         display: none;
