@@ -951,7 +951,7 @@ footer{
     }
     .plan__highlight--right{
         width: 30.4%;
-        left: 810px;
+        left: 66.7%;
     }
     hr{
         width: 100%;
@@ -982,6 +982,22 @@ footer{
 @media (max-width: 1023px){
     .nav__links{
         display: none;
+    }
+
+    .features__container{
+        margin-right: 68px;
+    }
+
+    .steps__right{
+        margin-right: 68px;
+    }
+
+    .plan__highlight--left{
+        width: 30%;
+    }
+    .plan__highlight--right{
+        left: 66.5%;
+        width: 30%;
     }
 }
 
