@@ -714,7 +714,6 @@ hr {
 
 .testimonials__user--info {
   margin-left: 14px;
-  position: relative;
 }
 
 .testimonials__user--name {
@@ -725,20 +724,7 @@ hr {
   font-size: 16px;
   font-weight: 500;
 }
-.testimonials__user--buttons {
-  position: absolute;
-  display: flex;
-  top: 0;
-  left: 200%;
-}
-.btn__left {
-  padding: 12px;
-  margin-right: 12px;
-}
-.btn__right {
-  padding: 12px;
-  margin-left: 12px;
-}
+
 
 /*END*/
 
